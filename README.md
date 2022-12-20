@@ -1,4 +1,4 @@
-# Dynamic-Dashboard-Data-Visualization-Web-Application
+# Full Stack Dynamic Dashboard
 
 This is a project for CS master's course CSC2558 at Univeristy of Toronto.
 
