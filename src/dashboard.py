@@ -103,23 +103,19 @@ dropdowns = dbc.Col(
 
             dbc.DropdownMenu(
                 children=[
-                        dbc.DropdownMenuItem(" "),
-                        dbc.DropdownMenuItem(" ")
+                        dbc.DropdownMenuItem(" ", id='tab_arm_dropdown_div')
                     ], 
                 label="Arm", 
                 color="success", 
-                id='tab_arm_dropdown_div', #'change_arm'
                 size='lg'
             ),
 
             dbc.DropdownMenu(
                 children=[
-                        dbc.DropdownMenuItem(" "),
-                        dbc.DropdownMenuItem(" ")
+                        dbc.DropdownMenuItem(" ", id='tab_context_dropdown_div')
                     ], 
                 label="Context", 
                 color="warning", 
-                id='tab_context_dropdown_div', #'change_context'
                 size='lg'
             ),
 
