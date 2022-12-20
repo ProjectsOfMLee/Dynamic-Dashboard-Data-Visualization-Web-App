@@ -16,7 +16,7 @@ from utils import get_dataset, filter_by_time
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # df = px.data.stocks()
-TOKEN = "Token 48c20ee2286ff123d918bfb86217d4c7240a717d"
+TOKEN = "Classified"
 mooclet_id = [315, 295, 388]
 
 # Get mooclet policy name and corresponding contextual variable.
